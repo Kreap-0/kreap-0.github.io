@@ -1,5 +1,23 @@
 body{
-	background: url(images/bg.jpg) fixed;
-	background-repeat: no-repeat;
-	background-size: 100% 100%; 
+	line-height: 25px;
+	font-family: Georgia;
+	font-size: 18px;
+	background-color: #c9d2c3;
+}
+
+#HeadBack{
+	width: 100%;
+	height: 300px;
+	padding: 15px;
+	padding-top: 10px;
+}
+
+#HeadBack h1{
+	color: white;
+}
+
+#zyw{
+	padding: 30px;
+	width: 500px;
+	border-radius: 25px;
 }
