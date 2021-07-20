@@ -1,33 +1,71 @@
 body{
-	line-height: 25px;
+	margin: 0;
+	padding: 0;
+	line-height: 40px;
 	font-family: Georgia;
 	font-size: 18px;
-	background-color: #f0f8ff;
+	background-color: #e1e1e1;
 }
 
 #home{
 	height: 100%;
 	width: auto;
-	margin-top: 5%;
-	margin-left: 10%;
-	margin-right: 10%;
-	background-color: #fff;
-	border-radius: 25px;
 }
 
 #Header{
-	padding: 3%;
-	padding-bottom: 2%;
-	margin: 3%;
+	padding: 10px;
+	padding-left: 50px; 
+	width: auto;
+	background-color: #fff;
 }
 
-#zyw{
-	width: 100%;
+#PageBody{
+	display: flex;
+    flex-direction: row;
+	width: auto;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	height: 800px;
 }
 
-#SideBar{
-	padding: 3%;
-	padding-top: 0;
-	margin: 3%;
-	width:100%%;
+#Footer{
+	margin-bottom: 0;
+    background-color: rgb(65, 63, 63);
+    border-style: solid;
+    border-color: rgb(65, 63, 63);
+    border-width: 10px;
+    color: #ffffff;
+}
+
+
+@media screen and (max-width: 760px){
+	#SideBar{display: none;}
+	#Main{
+		width: 100%; height: 100%;
+		background-color: #fff;
+		box-shadow: 2px 2px 5px #333333 ;
+	}
+}
+
+@media screen and (min-width: 760px){
+	#SideBar{
+		width: 280px; height: 100%;
+		background-color: #fff;
+		box-shadow: 2px 2px 5px #333333 ;
+	}
+	#icon{
+		width:200px;
+		height:200px;
+		border-radius: 200px;
+		padding: 40px;
+	}
+	#Main{
+		margin-left: 20px;
+		width: 80%;
+		height: 100%;
+		background-color: #fff;
+		box-shadow: 2px 2px 5px #333333 ;
+	}
 }
