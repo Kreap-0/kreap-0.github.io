@@ -68,4 +68,31 @@ body{
 		background-color: #fff;
 		box-shadow: 2px 2px 5px #333333 ;
 	}
+	#pi{
+		padding: 10px;
+		width: 150px;
+		height: 150px;
+		position: absolute;
+	}
+	#Ct{
+		font-family: "Consolas";
+		width: 15ch;
+		overflow: hidden;
+   	 	white-space: nowrap;
+		border-right: 1px solid transparent;
+    	animation: typing 3s steps(15), caret .5s steps(1) infinite;
+	}
+	#Ct_{
+		padding: 20px;
+		margin-left: 20px;
+		font-size: 40px;
+	}
+}
+
+@keyframes typing{
+	from { width: 0;}
+}
+  
+@keyframes caret{
+	50% { border-right-color: currentColor}
 }
