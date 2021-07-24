@@ -85,6 +85,10 @@ body{
 	font-size: 40px;
 }
 
+#Pchar{
+	height: 600px;
+}
+
 @keyframes typing{
 	from { width: 0;}
 }
