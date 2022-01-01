@@ -27,7 +27,7 @@ body{
 	margin-right: 10%;
 	margin-top: 25px;
 	margin-bottom: 25px;
-	height: 800px;
+	height: 700px;
 }
 
 #Footer{
@@ -85,8 +85,12 @@ body{
 	font-size: 40px;
 }
 
-#Pchar{
-	height: 600px;
+#cheating{
+  margin: 5%;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 500px;
+  width: 100%;
 }
 
 @keyframes typing{
